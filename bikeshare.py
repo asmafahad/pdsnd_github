@@ -213,6 +213,10 @@ def display_raw_data(df):
 # >>> END NEW
 
 
+import os
+
+if not os.path.exists("chicago.csv"):
+    print("[warn] chicago.csv not found — place CSVs next to bikeshare.py")
 def main():
     while True:
         city, month, day = get_filters()
