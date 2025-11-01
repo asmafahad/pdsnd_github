@@ -1,4 +1,8 @@
-# Project: Bikeshare
+def main():
+    print("Bikeshare script is running...")
+
+if __name__ == "__main__":
+    main()# Project: Bikeshare
 # This file loads local CSVs and prints simple info.
 
 
