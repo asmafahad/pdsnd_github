@@ -229,5 +229,12 @@ def main():
             break
 
 
+from typing import Optional
+
+def top_station(csv_path: str, column_name: str = "Start Station") -> Optional[str]:
+    # TODO: implement
+    return None
+
+
 if __name__ == "__main__":
     main()
