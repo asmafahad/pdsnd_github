@@ -1,29 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
-
-### Description
-Describe what your project is about and what it does
-
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
 # Bikeshare Project
 
-This repo contains a simple Python script (bikeshare.py) for exploring bikeshare data locally. CSV files are ignored via .gitignore and should not be pushed to GitHub.
+This repository contains a simple Python script (`bikeshare.py`) for exploring bikeshare data locally.  
+CSV files are ignored via `.gitignore` and should not be pushed to GitHub.
 
-## How to run
-1. Place CSV files next to bikeshare.py
-2. Run: python3 bikeshare.py
+## Description
+This project analyzes data from bikeshare systems in Chicago, New York City, and Washington.  
+It allows the user to filter data by city, month, and day, and then computes statistics such as:
+- The most common times of travel.
+- The most popular stations and trips.
+- The total and average trip duration.
+- User types and demographics (when available).
 
-## Branches
-- main: stable
-- documentation: README + code comments
-- refactoring: code improvements
+## How to Run
+1. Place the CSV data files in the same folder as `bikeshare.py` (these files are **ignored by Git**).
+2. Run the script using:
+   ```bash
+   python3 bikeshare.py
